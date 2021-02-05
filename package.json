@@ -1,0 +1,21 @@
+{
+    "name": "gruber-darker",
+    "displayName": "gruber-darker",
+    "description": "Tsoding's theme for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gruber Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Gruber-Darker-color-theme.json"
+            }
+        ]
+    }
+}
