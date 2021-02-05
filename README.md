@@ -1,6 +1,6 @@
 # Gruber Darker VSCode
 
-[Gruber Darker](https://jblevins.org/projects/emacs-color-themes/gruber-darker-theme.el.html) color theme for Emacs by Jason Blevins. A darker variant of the [Gruber Dark](https://daringfireball.net/projects/bbcolors/schemes/) theme for BBedit by John Gruber. Adapted for deftheme and extended by Alexey Kutepov a.k.a. [rexim](https://github.com/rexim). This is a port to Visual Studio Code by Karka-Admin.<ins> Right now this port is really inacurate and buggy.</ins>
+[Gruber Darker](https://jblevins.org/projects/emacs-color-themes/gruber-darker-theme.el.html) color theme for Emacs by Jason Blevins. A darker variant of the [Gruber Dark](https://daringfireball.net/projects/bbcolors/schemes/) theme for BBedit by John Gruber. Adapted for deftheme and extended by Alexey Kutepov a.k.a. [rexim](https://github.com/rexim). This is a port to Visual Studio Code by Karka-Admin. <ins>Right now this port is really inacurate and buggy.</ins>
 
 ## Installation
 
