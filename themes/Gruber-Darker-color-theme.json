@@ -2,7 +2,7 @@
 	"name": "Gruber Darker",
 	"type": "dark",
 	"colors": {
-		"foreground": "#ffffff",
+		"foreground": "#e4e4ef",
 		"focusBorder": "#ffdd33",
 		"titleBar.activeBackground": "#181818",
 		"titleBar.activeForeground": "#ffffff",
@@ -371,6 +371,27 @@
 			"scope": "support.function.construct",
 			"settings": {
 			  "foreground": "#e4e4ef"
+			}
+		},
+		{
+			"name": "[HTML] Tag Punctuation",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+			  "foreground": "#e4e4ef"
+			}
+		},
+		{
+			"name": "[HTML] Entity Name Tags",
+			"scope": "entity.name.tag.html",
+			"settings": {
+			  "foreground": "#ffdd33"
+			}
+		},
+		{
+			"name": "[HTML] Attribute Name",
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+			  "foreground": "#95a99f"
 			}
 		},
 		{

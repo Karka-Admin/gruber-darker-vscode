@@ -19,3 +19,4 @@ Best support for:
 
     1. C++
     2. JSON
+    3. HTML
