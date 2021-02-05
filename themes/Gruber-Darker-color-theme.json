@@ -13,6 +13,7 @@
 		"button.foreground": "#000000",
 		"activityBarBadge.background": "#181818",
 		"activityBar.background": "#181818",
+		"activityBarBadge.foreground": "#ffdd33",
 		"statusBar.background": "#282828",
 		"statusBar.noFolderBackground": "#282828",
 		"statusBar.debuggingBackground": "#282828",
@@ -283,23 +284,20 @@
 		},
 		{
 			"name": "Entity Name Function Call",
-			"scope": [ 
-				"entity.name.function.call",
-				"meta.function-call.generic"
-			],
+			"scope": "entity.name.function.call",
 			"settings": {
 			  "foreground": "#e4e4ef",
 			}
 		},
 		{
-			"name": "Entity Name Type Parameter",
+			"name": "Entity Name Type",
 			"scope": "entity.name.type",
 			"settings": {
 			  "foreground": "#95a99f",
 			}
 		},
 		{
-			"name": "Entity Name Type Parameter",
+			"name": "Entity Name Variable",
 			"scope": "entity.name.variable",
 			"settings": {
 			  "foreground": "#e4e4ef",
@@ -313,6 +311,20 @@
 			}
 		},
 		{
+			"name": "Entity Name Function Operator",
+			"scope": "entity.name.function.operator",
+			"settings": {
+			  "foreground": "#e4e4ef",
+			}
+		},
+		{
+			"name": "Entity Function Templated",
+			"scope": "entity.name.function.templated",
+			"settings": {
+			  "foreground": "#e4e4ef",
+			}
+		},
+		{
 			"name": "Entity Name Class",
 			"scope": "entity.name.type.class",
 			"settings": {
@@ -320,14 +332,14 @@
 			}
 		},
 		{
-			"name": "Entity Name Class",
+			"name": "Entity Type Alias",
 			"scope": "entity.name.type.alias",
 			"settings": {
 			  "foreground": "#95a99f",
 			}
 		},
 		{
-			"name": "Entity Name Class",
+			"name": "Entity Function Member",
 			"scope": "entity.name.function.member",
 			"settings": {
 			  "foreground": "#e4e4ef",
