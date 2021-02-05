@@ -3,13 +3,14 @@
 	"type": "dark",
 	"colors": {
 		"foreground": "#ffffff",
-		"editor.background": "#181818",
-		"editor.foreground": "#e4e4ef",
+		"focusBorder": "#ffdd33",
 		"titleBar.activeBackground": "#181818",
 		"titleBar.activeForeground": "#ffffff",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#181818",
 		"sideBar.border": "#181818",
+		"button.background": "#ffdd33",
+		"button.foreground": "#000000",
 		"activityBarBadge.background": "#181818",
 		"activityBar.background": "#181818",
 		"statusBar.background": "#282828",
@@ -18,6 +19,8 @@
 		"tab.activeBackground": "#181818",
 		"tab.inactiveBackground": "#181818",
 		"tab.border": "#181818",
+		"editor.background": "#181818",
+		"editor.foreground": "#e4e4ef",
 		"editorGroupHeader.tabsBackground": "#181818",
 		"editorCursor.foreground": "#ffdd33",
 		"editorCursor.background": "#000000",
@@ -27,11 +30,16 @@
 		"editor.findMatchHighlightBackground": "#52494e",
 		"editorLineNumber.activeForeground": "#453d41",
 		"editorLineNumber.foreground": "#453d41",
+		"editorHoverWidget.background": "#181818",
+		"editorHoverWidget.border": "#52494e",
 		"textLink.activeForeground": "#96a6c8",
 		"textLink.foreground": "#96a6c8",
 		"panel.background": "#181818",
 		"terminalCursor.foreground": "#ffdd33",
-		"terminalCursor.background": "#000000"
+		"terminalCursor.background": "#000000",
+		"editorError.foreground": "#ff4f58",
+		"editorInfo.background": "#73c936",
+		"editorWarning.foreground": "#cc8c3c"
 	},
 	"tokenColors": [
 		{
@@ -243,6 +251,8 @@
 			"name": "Storage Type",
 			"scope": [ 
 				"storage.type.struct",
+				"storage.type.union",
+				"storage.type.enum",
 				"storage.modifier.union"
 			],
 			"settings": {
@@ -273,7 +283,24 @@
 		},
 		{
 			"name": "Entity Name Function Call",
-			"scope": "entity.name.function.call",
+			"scope": [ 
+				"entity.name.function.call",
+				"meta.function-call.generic"
+			],
+			"settings": {
+			  "foreground": "#e4e4ef",
+			}
+		},
+		{
+			"name": "Entity Name Type Parameter",
+			"scope": "entity.name.type",
+			"settings": {
+			  "foreground": "#95a99f",
+			}
+		},
+		{
+			"name": "Entity Name Type Parameter",
+			"scope": "entity.name.variable",
 			"settings": {
 			  "foreground": "#e4e4ef",
 			}
