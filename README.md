@@ -17,6 +17,8 @@
 
 Best support for:
 
-    1. C++
-    2. JSON
-    3. HTML
+    1. C/C++
+    2. JavaScript
+    3. JSON
+    4. HTML
+    5. CSS

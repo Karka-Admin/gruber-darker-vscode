@@ -213,13 +213,6 @@
 			}
 		},
 		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-			  "foreground": "#95a99f"
-			}
-		},
-		{
 			"name": "Storage Class",
 			"scope": "storage.type.class",
 			"settings": {
@@ -441,53 +434,6 @@
 			],
 			"settings": {
 				"foreground": "#95a99f"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "HTML Attributes",
-			"scope": [
-				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
-			}
-		},
-		{
-			"name": "Inserted",
-			"scope": [
-				"markup.inserted"
-			],
-			"settings": {
-				"foreground": "#C3E88D"
-			}
-		},
-		{
-			"name": "Deleted",
-			"scope": [
-				"markup.deleted"
-			],
-			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Changed",
-			"scope": [
-				"markup.changed"
-			],
-			"settings": {
-				"foreground": "#C792EA"
 			}
 		},
 		{
