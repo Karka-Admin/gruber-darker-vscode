@@ -31,16 +31,22 @@
 		"editor.findMatchHighlightBackground": "#52494e",
 		"editorLineNumber.activeForeground": "#453d41",
 		"editorLineNumber.foreground": "#453d41",
+		"editor.lineHighlightBorder": "#181818",
+		"editorIndentGuide.background": "#ff0000",
 		"editorHoverWidget.background": "#181818",
 		"editorHoverWidget.border": "#52494e",
+		"editorError.foreground": "#ff4f58",
+		"editorInfo.background": "#73c936",
+		"editorWarning.foreground": "#cc8c3c",
 		"textLink.activeForeground": "#96a6c8",
 		"textLink.foreground": "#96a6c8",
 		"panel.background": "#181818",
+		"terminal.background": "#181818",
+		"terminal.foreground": "#e4e4ef",
+		"terminal.border": "#181818",
+		"terminal.selectionBackground": "#ffdd33",
 		"terminalCursor.foreground": "#ffdd33",
-		"terminalCursor.background": "#000000",
-		"editorError.foreground": "#ff4f58",
-		"editorInfo.background": "#73c936",
-		"editorWarning.foreground": "#cc8c3c"
+		"terminalCursor.background": "#000000"
 	},
 	"tokenColors": [
 		{
@@ -94,6 +100,14 @@
 			}
 		},
 		{
+			"name": "[C++] Variable Language This",
+			"scope": "variable.language.this.cpp",
+			"settings": {
+			  "foreground": "#ffdd33",
+			  "fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
@@ -107,6 +121,22 @@
 			"settings": {
 			  "foreground": "#e4e4ef",
 			  "fontStyle": ""
+			}
+		},
+		{
+			"name": "Keyword Operator",
+			"scope": "keyword.operator.sizeof",
+			"settings": {
+			  "foreground": "#ffdd33",
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword Operator Cast",
+			"scope": "keyword.operator.cast",
+			"settings": {
+			  "foreground": "#ffdd33",
+			  "fontStyle": "bold"
 			}
 		},
 		{
@@ -125,7 +155,7 @@
 			}
 		},
 		{
-			"name": "Keyword Operator Assignment",
+			"name": "Keyword Control Directive",
 			"scope": "keyword.control.directive",
 			"settings": {
 			  "foreground": "#95a99f",
@@ -213,6 +243,25 @@
 			}
 		},
 		{
+			"name": "Storage Namespace Definition and Directive",
+			"scope": [
+				"storage.type.namespace.definition",
+				"storage.type.namespace.directive"
+			],
+			"settings": {
+			  "foreground": "#ffdd33",
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Storage Type Template",
+			"scope": "storage.type.template",
+			"settings": {
+			  "foreground": "#ffdd33",
+			  "fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Storage Class",
 			"scope": "storage.type.class",
 			"settings": {
@@ -284,6 +333,13 @@
 			}
 		},
 		{
+			"name": "Scope Resolution",
+			"scope": "entity.name.scope-resolution",
+			"settings": {
+			  "foreground": "#95a99f"
+			}
+		},
+		{
 			"name": "Entity Name Function Call",
 			"scope": "entity.name.function.call",
 			"settings": {
@@ -322,7 +378,7 @@
 			"name": "Entity Function Templated",
 			"scope": "entity.name.function.templated",
 			"settings": {
-			  "foreground": "#e4e4ef"
+			  "foreground": "#96a6c8"
 			}
 		},
 		{
@@ -343,7 +399,7 @@
 			"name": "Entity Function Member",
 			"scope": "entity.name.function.member",
 			"settings": {
-			  "foreground": "#e4e4ef"
+			  "foreground": "#96a6c8"
 			}
 		},
 		{
@@ -354,6 +410,13 @@
 			],
 			"settings": {
 			  "foreground": "#e4e4ef"
+			}
+		},
+		{
+			"name": "Support Built-In Posix Reserved",
+			"scope": "support.type.posix-reserved",
+			"settings": {
+			  "foreground": "#95a99f"
 			}
 		},
 		{
