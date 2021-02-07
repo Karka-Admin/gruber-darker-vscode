@@ -78,6 +78,13 @@
 			}
 		},
 		{
+			"name": "[PYTHON] Constant Language",
+			"scope": "constant.language.python",
+			"settings": {
+				"foreground": "#95a99f"
+			}
+		},
+		{
 			"name": "Constant Numeric",
 			"scope": "constant.numeric",
 			"settings": {
@@ -243,6 +250,17 @@
 			}
 		},
 		{
+			"name": "[PYTHON] Storage Types",
+			"scope": [
+				"storage.type.function.python",
+				"storage.type.function.lambda.python"
+			],
+			"settings": {
+			  "foreground": "#ffdd33",
+			  "fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Storage Namespace Definition and Directive",
 			"scope": [
 				"storage.type.namespace.definition",
@@ -277,10 +295,13 @@
 			}
 		},
 		{
-			"name": "Storage Modifier, Specifier Const",
+			"name": "Storage Modifier, Specifier",
 			"scope": [ 
 				"storage.modifier.const",
-				"storage.modifier.specifier.const"
+				"storage.modifier.specifier.const",
+				"storage.modifier.specifier.extern",
+				"storage.modifier.specifier.register",
+				"storage.modifier.specifier.volatile"
 			],
 			"settings": {
 			  "foreground": "#ffdd33",
@@ -509,27 +530,6 @@
 			"settings": {
 				"foreground": "#96a6c8",
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"name": "Decorators",
-			"scope": [
-				"tag.decorator.js entity.name.tag.js",
-				"tag.decorator.js punctuation.definition.tag.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "ES7 Bind Operator",
-			"scope": [
-				"source.js constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
 			}
 		},
 		{
