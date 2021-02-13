@@ -78,6 +78,17 @@
 			}
 		},
 		{
+			"name": "[RUBY] Constant Language",
+			"scope": [
+				"constant.language.boolean.ruby",
+				"constant.language.symbol.ruby",
+				"punctuation.definition.constant.ruby"
+			],
+			"settings": {
+				"foreground": "#95a99f"
+			}
+		},
+		{
 			"name": "[PYTHON] Constant Language",
 			"scope": "constant.language.python",
 			"settings": {
@@ -361,6 +372,13 @@
 			}
 		},
 		{
+			"name": "[HS] Entity Namespace",
+			"scope": "entity.name.namespace.haskell",
+			"settings": {
+			  "foreground": "#95a99f"
+			}
+		},
+		{
 			"name": "Entity Name Function Call",
 			"scope": "entity.name.function.call",
 			"settings": {
@@ -445,6 +463,13 @@
 			"scope": "support.class",
 			"settings": {
 			  "foreground": "#e4e4ef"
+			}
+		},
+		{
+			"name": "[RUBY] Support Class",
+			"scope": "support.class.ruby",
+			"settings": {
+			  "foreground": "#95a99f"
 			}
 		},
 		{
