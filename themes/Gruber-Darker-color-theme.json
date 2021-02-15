@@ -648,5 +648,43 @@
 				"foreground": "#96a6c8"
 			}
 		},
+		{
+			"name": "[MD] Headings",
+			"scope": [
+				"entity.name.section.markdown",
+				"punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#ffdd33",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "[MD] Paragraphs",
+			"scope": "meta.paragraph.markdown",
+			"settings": {
+				"foreground": "#e4e4ef"
+			}
+		},
+		{
+			"name": "[MD] Links",
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown"
+			],
+			"settings": {
+				"foreground": "#73c936"
+			}
+		},
+		{
+			"name": "[MD] Punctuation",
+			"scope": [
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#e4e4ef"
+			}
+		}
 	]
 }
