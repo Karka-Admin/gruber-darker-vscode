@@ -46,7 +46,17 @@
 		"terminal.border": "#181818",
 		"terminal.selectionBackground": "#ffdd33",
 		"terminalCursor.foreground": "#ffdd33",
-		"terminalCursor.background": "#000000"
+		"terminalCursor.background": "#000000",
+		"widget.shadow": "#181818",
+		"dropdown.background": "#181818",
+		"dropdown.border": "#181818",
+		"input.background": "#282828",
+		"scrollbarSlider.background": "#282828",
+		"scrollbarSlider.hoverBackground": "#484848",
+		"scrollbarSlider.activeBackground": "#484848",
+		"list.hoverBackground": "#484848",
+		"list.focusBackground": "#484848",
+		"list.activeSelectionBackground": "#484848"
 	},
 	"tokenColors": [
 		{
