@@ -19,7 +19,7 @@ vsce package --baseContentUrl=file://$(pwd)
 ```
 
 In Visual Studio Code - open the command palette (*windows* `CTR + SHIFT + P`, *\*nix* `SUPER + SHIFT + P`)  
-and select Gruber-Darker and enjoy
+and select Gruber-Darker.
 
 
 ## Support
