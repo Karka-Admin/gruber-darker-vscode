@@ -5,15 +5,21 @@
 ## Sreenshot
 ![screenshot](screenshot.png)
 
-## Manual Installation
+## Installation
+Install [vsce](https://github.com/Microsoft/vscode-vsce)  
+`npm install --global vsce` 
 
-1. Clone this repository using [Git](https://git-scm.com/) `git clone https://github.com/Karka-Admin/gruber-darker-vscode.git`or just [Download Zip](https://github.com/Karka-Admin/gruber-darker-vscode/archive/main.zip).
+``` sh
+git clone https://github.com/khoroo/gruber-darker-vscode
+# alternatively -
+# wget "https://github.com/Karka-Admin/gruber-darker-vscode/archive/main.zip" && unzip main.zip
 
-2. Extract *gruber-darker-vscode-main* to your Visual Studio Code extensions location.<br>On windows it is located in `C:\Users\\"YOUR NAME"\\.vscode\extensions`.
+cd gruber-darker-vscode
+vsce package --baseContentUrl=file://$(pwd)
+```
 
-3. Open up Visual Studio Code, open up your command palette (on windows by default it should be CTRL + SHIFT + P), type in `Preferences: Color Theme` and press Enter.
-
-4. Select Gruber-Darker and enjoy.
+In Visual Studio Code - open the command palette (*windows* `CTR + SHIFT + P`, *\*nix* `SUPER + SHIFT + P`)  
+and select Gruber-Darker and enjoy
 
 
 ## Support
